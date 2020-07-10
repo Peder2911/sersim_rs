@@ -32,7 +32,7 @@ pub fn mutate(s:State)->State{
 
 pub fn relate(s:State)->State{
     State {
-        a: s.a * s.b,
+        a: s.a * (s.b/2.),
         b: s.b
     }
 }

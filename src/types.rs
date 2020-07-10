@@ -11,3 +11,9 @@ impl fmt::Display for State {
     }
 }
 
+impl State {
+    pub fn values(&self)-> [&f32; 2]{
+        [&self.a,&self.b]
+    }
+}
+

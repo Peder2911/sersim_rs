@@ -1,2 +1,2 @@
 - filetype: .rs
-  call: cargo run
+  call: cargo run 10000
