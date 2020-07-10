@@ -1,0 +1,2 @@
+- filetype: .rs
+  call: cargo run
